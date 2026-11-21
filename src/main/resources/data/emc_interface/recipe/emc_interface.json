@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "T": {"item":"projecte:transmutation_table"},
+    "R": {"item":"projecte:red_matter_block"},
+    "H": {"item":"minecraft:hopper"}
+  },
+  "pattern": ["RHR", "HTH", "RHR"],
+  "result": {"id":"emc_interface:emc_interface"}
+}

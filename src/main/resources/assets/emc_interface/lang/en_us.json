@@ -1,0 +1,7 @@
+{
+  "block.emc_interface.emc_interface": "EMC Interface",
+  "emc_interface.tooltip": "Sneak-use with an empty hand to share your EMC with adjacent automation while online.",
+  "emc_interface.owner_only": "Only the owner can change access.",
+  "emc_interface.enabled": "Adjacent automation can use your EMC.",
+  "emc_interface.disabled": "EMC access disabled."
+}

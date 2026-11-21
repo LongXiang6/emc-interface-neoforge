@@ -1,0 +1,35 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+
+[[mods]]
+modId="emc_interface"
+credits="Original gameplay concept by OfekN"
+logoFile="lambda_logo.png"
+displayName = "EMC Interface"
+description = "将 ProjectE 的已学习物品和 EMC 接入存储网络，支持相邻设备自动取放物品。"
+version = "1.21.1.2"
+
+[[dependencies.emc_interface]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+
+[[dependencies.emc_interface]]
+modId="neoforge"
+type="required"
+versionRange="[21.1,21.2)"
+
+[[dependencies.emc_interface]]
+modId="projecte"
+type="required"
+versionRange="[1.1,2)"
+ordering="AFTER"
+
+
+[[dependencies.emc_interface]]
+modId="emc_precision"
+type="required"
+versionRange="[1.0.0,2)"
+ordering="AFTER"
+side="BOTH"
